@@ -1,0 +1,9 @@
+[project]
+name = "uav-bdqn-search-track"
+version = "0.1.0"
+description = "Educational BDQN for a single-UAV search-and-track gridworld."
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "torch>=2.0", "tqdm>=4.66", "matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
